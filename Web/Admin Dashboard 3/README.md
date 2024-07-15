@@ -15,9 +15,9 @@
 
 ### Step 1: Construct the html
 ![image](https://github.com/user-attachments/assets/6c9d2796-428a-48ce-9722-49124bd59ab6)
-We need to set localhost in the url because the admin will run the code at server side internally.
+<br>We need to set localhost in the url because the admin will run the code at server side internally.</br>
 
-Step 2: Host a Webiste with the html file
+### Step 2: Host a Webiste with the html file
 For here, i will use a free website hosting site, tiiny.host.
 In here, we upload our html file for hosting
 ![image](https://github.com/user-attachments/assets/caa7c94c-ec86-4dbd-9706-712d3856b267)
@@ -28,10 +28,10 @@ Next, we test the website
 ![image](https://github.com/user-attachments/assets/7fbd375a-5a2b-4442-817f-cfc2e98fe9ed)
 if we see this error, that means we hosted successfully
 
-Step 3: Submit(Report) to admin
+### Step 3: Submit(Report) to admin
 ![image](https://github.com/user-attachments/assets/bc0afe28-564b-449b-8eb9-cf917a9ee30f)
 
-Step 4: Relogin as new admin
+### Step 4: Relogin as new admin
 ![image](https://github.com/user-attachments/assets/cf9fa292-821e-46e7-8c56-0e26efa37e78)
 ![image](https://github.com/user-attachments/assets/fcc3826d-b6f1-4707-b6f4-c6e4338b79cc)
 
