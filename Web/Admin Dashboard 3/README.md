@@ -18,15 +18,14 @@
 <br>We need to set localhost in the url because the admin will run the code at server side internally.</br>
 
 ### Step 2: Host a Webiste with the html file
-For here, i will use a free website hosting site, tiiny.host.
-In here, we upload our html file for hosting
+<br>For here, i will use a free website hosting site, tiiny.host. In here, we upload our html file for hosting </br>
 ![image](https://github.com/user-attachments/assets/caa7c94c-ec86-4dbd-9706-712d3856b267)
-Do also give it a name
+<br>Do also give it a name</br>
 ![image](https://github.com/user-attachments/assets/79a86ae6-4be9-4932-ab57-8453ab354743)
 ![image](https://github.com/user-attachments/assets/53ea9a18-a050-4b17-807b-9e63e21ffe04)
-Next, we test the website
+<br>Next, we test the website</br>
 ![image](https://github.com/user-attachments/assets/7fbd375a-5a2b-4442-817f-cfc2e98fe9ed)
-if we see this error, that means we hosted successfully
+<br>if we see this error, that means we hosted successfully</br>
 
 ### Step 3: Submit(Report) to admin
 ![image](https://github.com/user-attachments/assets/bc0afe28-564b-449b-8eb9-cf917a9ee30f)
