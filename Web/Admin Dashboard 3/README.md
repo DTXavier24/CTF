@@ -2,16 +2,16 @@
 
 ![image](https://github.com/user-attachments/assets/1f726f61-8252-457b-a503-11e36951ef3e)
 <br>Hint 1: What is CSRF?</br>
-Hint 2: The admin session is inlocalhost, so your payload should perform request to the localhost domain
-Hint 3: Try use the example payload as below:
+<br>Hint 2: The admin session is inlocalhost, so your payload should perform request to the localhost domain</br>
+<br>Hint 3: Try use the example payload as below:</br>
 
 
 # Solution
 ![image](https://github.com/user-attachments/assets/077afd8f-f33b-454b-8ef1-ab35291e3cf1)
 ![image](https://github.com/user-attachments/assets/129b56b6-7d98-41b9-baf1-a4dc8ce5105c)
 
-We know that we are not allowed to create new admin user as we don't have administration access.
-Therefore, we can construct a CSRF attack to bypass it.
+<br>We know that we are not allowed to create new admin user as we don't have administration access. </br>
+<br>Therefore, we can construct a CSRF attack to bypass it.</br>
 
 Step 1: Construct the html
 ![image](https://github.com/user-attachments/assets/6c9d2796-428a-48ce-9722-49124bd59ab6)
