@@ -13,7 +13,7 @@
 <br>We know that we are not allowed to create new admin user as we don't have administration access. </br>
 <br>Therefore, we can construct a CSRF attack to bypass it.</br>
 
-Step 1: Construct the html
+### Step 1: Construct the html
 ![image](https://github.com/user-attachments/assets/6c9d2796-428a-48ce-9722-49124bd59ab6)
 We need to set localhost in the url because the admin will run the code at server side internally.
 
