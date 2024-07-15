@@ -1,7 +1,7 @@
 **The writeups given are quite SHITTTT & useless. So I've decided to write my own writeups with much more easier method**
 
 ![image](https://github.com/user-attachments/assets/1f726f61-8252-457b-a503-11e36951ef3e)
-Hint 1: What is CSRF?
+<br>Hint 1: What is CSRF?</br>
 Hint 2: The admin session is inlocalhost, so your payload should perform request to the localhost domain
 Hint 3: Try use the example payload as below:
 
