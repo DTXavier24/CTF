@@ -11,7 +11,8 @@ I've created the script to automate to process.<br />
 Run it to get the flag. <br />
 
 
-```from pwn import *
+```
+from pwn import *
 
 # Connection details
 host = 'skrctf.me'
@@ -65,3 +66,4 @@ conn.close()
 
 # Print the final flag
 print(f"Final flag: {flag}")
+```
