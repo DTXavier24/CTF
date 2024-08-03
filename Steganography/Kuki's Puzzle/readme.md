@@ -17,7 +17,7 @@ We are given a zip which contains many pieces of puzzle pieces(png image).Just s
 <br>Lastly, i totally give up on bit plane.
 <br>I've found out that if i zoom in big enough, i can roughly see the qr code hidden in a colour
 <br>Therefore, i go for colour replacement approach, luckily we can easily do this with microsoft word
-<br>Import the image, Click on the image and select Picture Format -> Color -> Set Transparent Color
+<br>Import the image, Click on the image and select ```Picture Format``` -> ```Color``` -> ```Set Transparent Color```
 ![image](https://github.com/user-attachments/assets/17e44542-796d-4631-a5ae-ea846e980972)
 <br>Make sure to hit the right spot, Zoom in to assist with it<br />
 ![image](https://github.com/user-attachments/assets/d44e645b-1c50-4298-a120-9848cd26bb71)
@@ -26,3 +26,5 @@ We are given a zip which contains many pieces of puzzle pieces(png image).Just s
 The qr code leads us to a link to download another zip file
 <br>As usual, just solve the puzzle and we'll get the flag
 ![image](https://github.com/user-attachments/assets/ea9063ac-b96d-4e44-be81-06b97ccfd4e2)
+
+Overall, this challenge is good as it introduces bit plane steganography, just that not being able to easily scan the qr is quite painful,urghhhhh.
