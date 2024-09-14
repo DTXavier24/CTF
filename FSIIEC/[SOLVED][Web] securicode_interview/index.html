@@ -1,0 +1,75 @@
+<?php
+require_once "flag.php";
+
+$step1 = $_GET["step1"] ?? '';
+$step1 = str_replace("auditfsiiec", '', $step1);
+$messages = [];
+$continue = true;
+
+if ($step1 === '') {
+    $messages[] = "Step1 is empty. Please provide the correct parameter.";
+    $continue = false;
+} else {
+    $query = urldecode($_SERVER["QUERY_STRING"]);
+    if (preg_match("/ |_/", $query)) {
+        failure("Unauthorized character detected.");
+        $continue = false;
+    }
+    if ($continue && $step1 === "auditfsiiec") {
+        $messages[] = "First step OK !";
+        if (isset($_GET["securi_code"])) {
+            $messages[] = "Second step OK !";
+            if (hash("md2", $_GET["step3"]) == "0") {
+                $messages[] = "Third step OK !";
+                if (hash("sha1", $_GET["step4"]) == $_GET["step4"]) {
+                    $messages[] = "Okay, here is the flag : " . $secretflag;
+                    $messages[] = "Welcome to our company! You successfully passed the challenge and are now our new Appsec Engineer!";
+                }
+            }
+        }
+    }
+}
+
+function failure($message)
+{
+    global $messages, $continue;
+    $messages = [];
+    $messages[] = $message;
+    $continue = false;
+}
+
+function source()
+{
+    echo "<br /><code>";
+    highlight_string(file_get_contents(__FILE__));
+    echo "</code>";
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technical Interview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Technical Interview - SecuriCode</h1>
+        <p>We want you to analyze the code below and bypass the security checks.</p>
+    </header>
+    <main>
+        <section class="code-section">
+            <?php source(); ?>
+        </section>
+        <section class="message-box">
+            <h2>Messages:</h2>
+            <div class="messages">
+                <?php foreach ($messages as $message): ?>
+                    <p><?php echo htmlspecialchars($message); ?></p>
+                <?php endforeach; ?>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
