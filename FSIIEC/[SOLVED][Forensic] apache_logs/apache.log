@@ -1,0 +1,40 @@
+192.168.32.1 - - [06/Aug/2024:10:00:01 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=guest&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.2 - - [06/Aug/2024:10:05:15 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=admin&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.3 - - [06/Aug/2024:10:10:22 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=test&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.4 - - [06/Aug/2024:10:15:30 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=%27+union+all+select+1%2CString.
+fromCharCode%28%2B70%2C%2B108%2C%2B97%2C%2B103%2C%2B32%2C%2B105%2C%2B115%2C%2B32%2C%2B58%2C%2B32%2C%2B70%2C%2B83%2C%2B73%2C%2B73%2C%2B69%2C%2B67%2C%2B84%2C%2B70%2C%2B123%2C%2B53%2C%2B48%2C%2B49%2C%2B49%2C%2B57%2C%2B99%2C%2B49%2C%2B56%2C%2B100%2C%2B51%2C%2B99%2C%2B52%2C%2B50%2C%2B99%2C%2B56%2C%2B53%2C%2B98%2C%2B57%2C%2B101%2C%2B102%2C%2B53%2C%2B102%2C%2B48%2C%2B98%2C%2B49%2C%2B100%2C%2B100%2C%2B98%2C%2B56%2C%2B101%2C%2B52%2C%2B50%2C%2B125%29%2C3+--%2B&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.5 - - [06/Aug/2024:10:20:45 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=alice&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.6 - - [06/Aug/2024:10:25:55 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=bob&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.7 - - [06/Aug/2024:10:30:10 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=eve&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.8 - - [06/Aug/2024:10:35:25 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=charlie&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.9 - - [06/Aug/2024:10:40:40 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=dave&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+
+192.168.32.10 - - [06/Aug/2024:10:45:55 -0400] "GET /mutillidae/index.php?page=client-side-control-challenge.php HTTP/1.1" 200 8192
+"http://192.168.32.134/mutillidae/index.php?page=user-info.php&username=mallory&password=&user-info-php-submit-button=View+Account+Details"
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
