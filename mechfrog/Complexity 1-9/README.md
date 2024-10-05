@@ -142,7 +142,40 @@ def f(n):
 ```
 
 This algorithm is same as Complexity 4 but an additional interation of `n`.
-<br> Therefore, comebine both time complexities:
 
-<br> $O(n) * O(n) = O(n^2)$
-<br>So answer is $O(n^2)$
+<br>$T(n) = O(n^\{log_ba})$
+<br>a=2 (since there are two recursive calls),
+<br>b=2 (because the problem size is divided by 2 each time),
+<br>d=1 (since there is one recursion within).
+<br>So answer is $O(n\log n)$
+
+# Complexity 9
+
+```
+def g(n):
+    return bin(n).count('1')
+
+def f(n):
+    res = 0
+    for i in range(1, n):
+        for j in range(int(n * n / i)):
+            res += g(j)
+    return res
+```
+
+Function ```g(n)``` is the bin() function creates a time complexity of $O(\log n)$ as it counts the number of 1's in a string.
+
+Function ```f(n)``` has 2 loops.
+<br>1. the loop within the range of i, so $O(n)$
+<br>2. the loop within the range of $\frac{n^2}{i}$, 
+
+$T(n) = \sum\limits_{i=1}^{n-1} \frac{n^2}{i}$
+<br>$T(n) = n^2 \sum\limits_{i=1}^{n-1} \frac{1}{i}$
+<br>$T(n) = O(n^2\log n)$
+
+Combine both complexities
+
+$O(\log n) * O(n^2\log n) = O(n^2\log^2 n)$
+
+So answer is $O(n^2\log^2 n)$
+​
