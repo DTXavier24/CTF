@@ -1,5 +1,4 @@
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/f342aaf2-093e-474d-a7df-684b9a423028)
 
 # Solution
 ![image](https://github.com/user-attachments/assets/27a683eb-2483-47e9-b4bd-57516e0affcf)
